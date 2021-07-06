@@ -1,0 +1,51 @@
+body{
+    font-family: 'Righteous', cursive;
+    /* background-color: black; */
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient(gray, black, gray);
+    color: blanchedalmond;
+    display: flex;
+    padding: 2px 0;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.left{
+    color: cyan;
+}
+.left:hover{
+    color: orangered;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.right{
+    margin-left: 100px;
+}
+.right a{
+    color:cornsilk;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2rem;
+}
+.right a:hover{
+    color: orangered;
+    transition: all .5s ease-in-out;
+}
+.elements{
+    height: 700px;
+    background-image: linear-gradient(white, black, white);
+}
+.footer{
+    color: cyan;
+    height: 60px;
+    background-image: linear-gradient(gray, black, gray);
+    display: block;
+    text-align: right;   
+}
+
